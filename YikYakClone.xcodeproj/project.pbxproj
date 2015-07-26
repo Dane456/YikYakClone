@@ -13,6 +13,7 @@
 		35F3CA901B5F0856008490FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F3CA8F1B5F0856008490FF /* Images.xcassets */; };
 		35F3CA931B5F0856008490FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35F3CA911B5F0856008490FF /* LaunchScreen.xib */; };
 		35F3CA9F1B5F0856008490FF /* YikYakCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F3CA9E1B5F0856008490FF /* YikYakCloneTests.swift */; };
+		35F3CAA91B5F0E9D008490FF /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F3CAA81B5F0E9D008490FF /* CustomTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		35F3CA981B5F0856008490FF /* YikYakCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YikYakCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F3CA9D1B5F0856008490FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35F3CA9E1B5F0856008490FF /* YikYakCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YikYakCloneTests.swift; sourceTree = "<group>"; };
+		35F3CAA81B5F0E9D008490FF /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				35F3CA8F1B5F0856008490FF /* Images.xcassets */,
 				35F3CA911B5F0856008490FF /* LaunchScreen.xib */,
 				35F3CA861B5F0856008490FF /* Supporting Files */,
+				35F3CAA81B5F0E9D008490FF /* CustomTableViewController.swift */,
 			);
 			path = YikYakClone;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35F3CA8B1B5F0856008490FF /* ViewController.swift in Sources */,
+				35F3CAA91B5F0E9D008490FF /* CustomTableViewController.swift in Sources */,
 				35F3CA891B5F0856008490FF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
