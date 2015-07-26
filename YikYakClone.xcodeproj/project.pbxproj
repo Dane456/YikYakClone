@@ -415,6 +415,7 @@
 				35F3CAA41B5F0856008490FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35F3CAA51B5F0856008490FF /* Build configuration list for PBXNativeTarget "YikYakCloneTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +424,7 @@
 				35F3CAA71B5F0856008490FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
