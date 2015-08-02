@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 Dane Jordan. All rights reserved.
 //
 
+import Parse
+import Bolts
 import UIKit
 
 @UIApplicationMain
@@ -15,6 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        // [Optional] Power your app with Local Datastore. For more info, go to
+        // https://parse.com/docs/ios_guide#localdatastore/iOS
+        Parse.enableLocalDatastore()
+        
+        // Initialize Parse.
+//        Parse.setApplicationId("x1Nga4jCtIpyZChKUVmiKoIblTuBkN6Fqi24kQuO",
+//            clientKey: "SwpvqRu9F6Bu8M4eZDMIXZc66OI7M4fWJ8oS4aRK")
+        
+        // [Optional] Track statistics around application opens.
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
         
         let navbar = UINavigationBar.appearance()
         navbar.barTintColor = UIColor(red: 168/255, green: 215/255, blue: 111/255, alpha: 1)
