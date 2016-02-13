@@ -15,7 +15,7 @@ class CustomTableViewController: UITableViewController {
         super.viewDidLoad()
 
         let testObject = PFObject(className: "TestObject")
-        testObject["foo"] = "bar"
+        testObject["foo"] = "pah"
         testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
             println("Object has been saved.")
         }

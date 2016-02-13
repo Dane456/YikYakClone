@@ -10,18 +10,6 @@
 		3581ED5B1B6C5A8200F8BAA0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581ED5A1B6C5A8200F8BAA0 /* TableViewController.swift */; };
 		3581ED611B6D653E00F8BAA0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581ED601B6D653E00F8BAA0 /* TableViewCell.swift */; };
 		3596EA2C1B6B00A30057CDEF /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3596EA2B1B6B00A30057CDEF /* PostViewController.swift */; };
-		3596EA2F1B6B048E0057CDEF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596EA2D1B6B048E0057CDEF /* Bolts.framework */; };
-		3596EA301B6B048E0057CDEF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596EA2E1B6B048E0057CDEF /* Parse.framework */; };
-		3596EA321B6B04D60057CDEF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596EA311B6B04D60057CDEF /* AudioToolbox.framework */; };
-		3596EA341B6B04DD0057CDEF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596EA331B6B04DD0057CDEF /* CFNetwork.framework */; };
-		3596EA361B6B04E50057CDEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596EA351B6B04E50057CDEF /* CoreGraphics.framework */; };
-		3596EA381B6B04F00057CDEF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596EA371B6B04F00057CDEF /* CoreLocation.framework */; };
-		3596EA3A1B6B04F80057CDEF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596EA391B6B04F80057CDEF /* QuartzCore.framework */; };
-		3596EA3C1B6B05360057CDEF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596EA3B1B6B05360057CDEF /* Security.framework */; };
-		3596EA3E1B6B053D0057CDEF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596EA3D1B6B053D0057CDEF /* StoreKit.framework */; };
-		3596EA401B6B05490057CDEF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596EA3F1B6B05490057CDEF /* SystemConfiguration.framework */; };
-		3596EA421B6B055A0057CDEF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596EA411B6B055A0057CDEF /* libz.dylib */; };
-		3596EA441B6B05730057CDEF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3596EA431B6B05730057CDEF /* libsqlite3.dylib */; };
 		35F3CA891B5F0856008490FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F3CA881B5F0856008490FF /* AppDelegate.swift */; };
 		35F3CA8B1B5F0856008490FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F3CA8A1B5F0856008490FF /* ViewController.swift */; };
 		35F3CA8E1B5F0856008490FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F3CA8C1B5F0856008490FF /* Main.storyboard */; };
@@ -29,7 +17,6 @@
 		35F3CA931B5F0856008490FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35F3CA911B5F0856008490FF /* LaunchScreen.xib */; };
 		35F3CA9F1B5F0856008490FF /* YikYakCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F3CA9E1B5F0856008490FF /* YikYakCloneTests.swift */; };
 		35F3CAA91B5F0E9D008490FF /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F3CAA81B5F0E9D008490FF /* CustomTableViewController.swift */; };
-		4F6E73D5E62EE5CEC5DC0BFE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9A9655A606D459BB0A6C15 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,18 +35,6 @@
 		3581ED5D1B6C5B3600F8BAA0 /* YikYakClone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YikYakClone-Bridging-Header.h"; sourceTree = "<group>"; };
 		3581ED601B6D653E00F8BAA0 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		3596EA2B1B6B00A30057CDEF /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
-		3596EA2D1B6B048E0057CDEF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		3596EA2E1B6B048E0057CDEF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		3596EA311B6B04D60057CDEF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		3596EA331B6B04DD0057CDEF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		3596EA351B6B04E50057CDEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3596EA371B6B04F00057CDEF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		3596EA391B6B04F80057CDEF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		3596EA3B1B6B05360057CDEF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		3596EA3D1B6B053D0057CDEF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		3596EA3F1B6B05490057CDEF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		3596EA411B6B055A0057CDEF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		3596EA431B6B05730057CDEF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		35F3CA831B5F0855008490FF /* YikYakClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YikYakClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F3CA871B5F0856008490FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35F3CA881B5F0856008490FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,7 +47,6 @@
 		35F3CA9E1B5F0856008490FF /* YikYakCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YikYakCloneTests.swift; sourceTree = "<group>"; };
 		35F3CAA81B5F0E9D008490FF /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 		93DF1111D815EF45D304B39E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		FC9A9655A606D459BB0A6C15 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,19 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3596EA441B6B05730057CDEF /* libsqlite3.dylib in Frameworks */,
-				3596EA421B6B055A0057CDEF /* libz.dylib in Frameworks */,
-				3596EA401B6B05490057CDEF /* SystemConfiguration.framework in Frameworks */,
-				3596EA3E1B6B053D0057CDEF /* StoreKit.framework in Frameworks */,
-				3596EA3C1B6B05360057CDEF /* Security.framework in Frameworks */,
-				3596EA3A1B6B04F80057CDEF /* QuartzCore.framework in Frameworks */,
-				3596EA381B6B04F00057CDEF /* CoreLocation.framework in Frameworks */,
-				3596EA361B6B04E50057CDEF /* CoreGraphics.framework in Frameworks */,
-				3596EA341B6B04DD0057CDEF /* CFNetwork.framework in Frameworks */,
-				3596EA321B6B04D60057CDEF /* AudioToolbox.framework in Frameworks */,
-				3596EA301B6B048E0057CDEF /* Parse.framework in Frameworks */,
-				3596EA2F1B6B048E0057CDEF /* Bolts.framework in Frameworks */,
-				4F6E73D5E62EE5CEC5DC0BFE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,31 +67,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3581ED571B6C525A00F8BAA0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3596EA431B6B05730057CDEF /* libsqlite3.dylib */,
-				3596EA411B6B055A0057CDEF /* libz.dylib */,
-				3596EA3F1B6B05490057CDEF /* SystemConfiguration.framework */,
-				3596EA3D1B6B053D0057CDEF /* StoreKit.framework */,
-				3596EA3B1B6B05360057CDEF /* Security.framework */,
-				3596EA391B6B04F80057CDEF /* QuartzCore.framework */,
-				3596EA371B6B04F00057CDEF /* CoreLocation.framework */,
-				3596EA351B6B04E50057CDEF /* CoreGraphics.framework */,
-				3596EA331B6B04DD0057CDEF /* CFNetwork.framework */,
-				3596EA311B6B04D60057CDEF /* AudioToolbox.framework */,
-				3596EA2D1B6B048E0057CDEF /* Bolts.framework */,
-				3596EA2E1B6B048E0057CDEF /* Parse.framework */,
-				FC9A9655A606D459BB0A6C15 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		35F3CA7A1B5F0855008490FF = {
 			isa = PBXGroup;
 			children = (
 				3581ED5D1B6C5B3600F8BAA0 /* YikYakClone-Bridging-Header.h */,
-				3581ED571B6C525A00F8BAA0 /* Frameworks */,
 				35F3CA851B5F0855008490FF /* YikYakClone */,
 				35F3CA9B1B5F0856008490FF /* YikYakCloneTests */,
 				35F3CA841B5F0855008490FF /* Products */,
@@ -244,6 +184,7 @@
 		35F3CA7B1B5F0855008490FF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Dane Jordan";
 				TargetAttributes = {
