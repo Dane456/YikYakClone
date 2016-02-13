@@ -1,0 +1,5 @@
+platform :ios, '8.0'
+pod 'Parse', '~> 1.7.5.3'
+pod 'BEMSimpleLineGraph', '~> 4.0'
+pod 'ParseUI', '~> 1.1.4'
+pod 'XYPieChart'
